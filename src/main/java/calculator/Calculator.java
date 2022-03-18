@@ -8,5 +8,7 @@ public class Calculator {
     }
 
 
-  
+    public float sqrt(int a , int b) {
+        return (float) Math.sqrt((float) a / (float) b);
+    }
 }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="36" failures="0" name="calculator.RunnerTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="36" failures="0" name="calculator.RunnerTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
     <property name="sun.boot.library.path" value="C:\Users\sepeh\.jdks\openjdk-15.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sepeh\Downloads\SW-Lab-2-master\SW-Lab-2-master"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sepeh\OneDrive\Desktop\Software Lab HW2\Software-Engineering-Lab-HW2"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\sepeh\Downloads\SW-Lab-2-master\SW-Lab-2-master"/>
+    <property name="user.dir" value="C:\Users\sepeh\OneDrive\Desktop\Software Lab HW2\Software-Engineering-Lab-HW2"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
     <property name="os.arch" value="amd64"/>
@@ -66,11 +66,11 @@
   <testcase classname="| -5 | 6 | 1 |" name="Given Two input values, -5 and 6" time="0"/>
   <testcase classname="| -5 | 6 | 1 |" name="When I add the two values" time="0"/>
   <testcase classname="| -5 | 6 | 1 |" name="Then I expect the result 1" time="0"/>
-  <testcase classname="| -5 | 6 | 1 |" name="| -5 | 6 | 1 |" time="0"/>
+  <testcase classname="| -5 | 6 | 1 |" name="| -5 | 6 | 1 |" time="0.001"/>
   <testcase classname="| 22 | 21 | 43 |" name="Given Two input values, 22 and 21" time="0"/>
   <testcase classname="| 22 | 21 | 43 |" name="When I add the two values" time="0"/>
   <testcase classname="| 22 | 21 | 43 |" name="Then I expect the result 43" time="0"/>
-  <testcase classname="| 22 | 21 | 43 |" name="| 22 | 21 | 43 |" time="0.001"/>
+  <testcase classname="| 22 | 21 | 43 |" name="| 22 | 21 | 43 |" time="0"/>
   <testcase classname="Scenario: divide and sqrt two numbers" name="Given Two input values are, 25 and 1" time="0"/>
   <testcase classname="Scenario: divide and sqrt two numbers" name="When Ali and Sepehr divide a to b and sqrt" time="0"/>
   <testcase classname="Scenario: divide and sqrt two numbers" name="Then Ali and Sepehr expect the result 5" time="0"/>
@@ -93,6 +93,6 @@
   <testcase classname="| 100 | 4 | 5 |" name="| 100 | 4 | 5 |" time="0"/>
   <testcase classname="| 7 | 3 | 1.53 |" name="Given Two input values are, 7 and 3" time="0"/>
   <testcase classname="| 7 | 3 | 1.53 |" name="When Ali and Sepehr divide a to b and sqrt" time="0"/>
-  <testcase classname="| 7 | 3 | 1.53 |" name="Then Ali and Sepehr expect the result 1.53" time="0.001"/>
-  <testcase classname="| 7 | 3 | 1.53 |" name="| 7 | 3 | 1.53 |" time="0.001"/>
+  <testcase classname="| 7 | 3 | 1.53 |" name="Then Ali and Sepehr expect the result 1.53" time="0"/>
+  <testcase classname="| 7 | 3 | 1.53 |" name="| 7 | 3 | 1.53 |" time="0"/>
 </testsuite>
